@@ -10,5 +10,7 @@ import scrapy
 
 class QuotesbotItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    tags = scrapy.Field()
+    author = scrapy.Field()
+    text = scrapy.Field()
     pass
